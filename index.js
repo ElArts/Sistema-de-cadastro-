@@ -1,5 +1,5 @@
 const idadeMinima = 18
-let dataDoEvento = 14/12
+const dataDoEvento = new Date("2021-12-22")
 let listaDeParticipantes = ["Fulano", "Ciclano", "Beltrano"]
 let listaDePalestrantes = ["Matheus", "Jorel"]
 
@@ -13,7 +13,9 @@ if (idadeMinima => 18) {
     console.log("Você não possui idade mínima para participar do evento")
 }
 
-if(dataDoEvento => 14/12) {
+let newDate = new Date("2021-12-14")
+
+if(dataDoEvento >= newDate) {
     console.log("Você está dentro do prazo de cadastro")
 }else{
     console.log("A data do evento expirou")

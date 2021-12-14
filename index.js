@@ -7,7 +7,7 @@ console.log("Os palestrantes são:",listaDePalestrantes)
 
 console.log("Os participantes são:",listaDeParticipantes)
 
-if (idadeMinima => 18) {
+if (idadeMinima >= 18) {
     console.log("Você possui a idade mínima para participar do evento")
 }else{
     console.log("Você não possui idade mínima para participar do evento")
